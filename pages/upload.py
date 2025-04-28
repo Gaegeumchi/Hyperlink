@@ -17,7 +17,7 @@ if os.path.exists(image_path):
     with col2:
         st.image(Image.open(image_path))
 else:
-    st.error('logo.pnag not found', icon="🚨")
+    st.error('logo.png not found', icon="🚨")
 
 
 # file upload logic
